@@ -1,1 +1,36 @@
 <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>To-Do App</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <div id="logo">
+        <img src="img/logo.svg" alt="To-Do App Logo" />
+        <h1>To-Do App</h1>
+      </div>
+      <form id="new-task-form">
+        <input type="text" id="new-task-input" placeholder="Was hast du geplant?" name="task-input" />
+        <input type="submit" id="new-task-submit" value="Task hinzufügen" />
+      </form>
+    </header>
+    <main>
+      <h2>Tasks</h2>
+      <div id="tasks">
+        <!-- <div class="task">
+          <input type="text" class="text" value="Kuchen essen"  />
+          <div class="task-actions">
+            <button class="edit">Bearbeiten</button>
+            <button class="delete">Löschen</button>
+          </div>
+        </div>  -->
+      </div>
+    </main>
+    <script src="js/main.js"></script>
+  </body>
+</html>
